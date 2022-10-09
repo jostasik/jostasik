@@ -30,7 +30,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           base_indepth: yes
-          config_display: columns
+          config_display: large
           config_octicon: yes
           config_timezone: America/New_York
           plugin_achievements: yes
@@ -64,13 +64,6 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          plugin_music: yes
-          plugin_music_limit: 4
-          plugin_music_mode: recent
-          plugin_music_provider: spotify
-          plugin_music_time_range: short
-          plugin_music_top_type: tracks
-          plugin_music_user: nigification
           plugin_repositories: yes
           plugin_repositories_featured: Flowgorithm-macOS
           plugin_repositories_order: featured, pinned, starred, random
