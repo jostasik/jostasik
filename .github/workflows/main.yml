@@ -28,7 +28,7 @@ jobs:
           # Options
           user: jostasik
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, repositories, metadata
           base_indepth: yes
           config_display: large
           config_octicon: yes
@@ -67,5 +67,4 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_featured: Flowgorithm-macOS
           plugin_repositories_order: featured, pinned, starred, random
-          plugin_support: yes
           plugin_traffic: yes
